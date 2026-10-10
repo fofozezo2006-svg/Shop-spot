@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Spot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="container1">
+        <div class="header">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="index.html"><img src="Assets/logo.png" alt="logo"></a>
+                </div>
+                
+                <div class="search">
+                    <input type="text" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            
+                <div class="cart">
+                    <div class="cart-item">
+                        <a href="cart.html" class="cart-link">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="header-bottom">
+                <div class="menu">
+                    <nav class="nav-links">
+                        <!-- open menu icon -->
+                        <i class="fa-solid fa-bars menu-items"></i>    
+                        <ul>
+                            <!--close menu icon -->
+                            <i class="fa-solid fa-circle-xmark close-menu"></i>
+                            <img src="Assets/logo.png" alt="logo">
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="iphones.html">iphones</a></li>
+                            <li><a href="Sumsung.html">Sumsung</a></li>
+                            <li><a href="./cart.html">Cart</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="sign">
+                    <a href="signup.html">
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                    <a href="login.html">
+                        <button class="sign-in">Log In</button>
+                    </a> 
+                </div>
+            </div> 
+        </div>
+
+        
+    </div> 
+    <div class="Essentials">
+        <!-- side-bar -->
+        <aside class="side-bar">
+            <h2 class="text-content">Most Selling</h2>
+            <div class="side-bar-content">
+                <div class="side-bar-item-content">
+                    <img src="Assets/product-1.jpg" alt="Sumsung s23">
+                    <h3>iPhone 13</h3>
+                </div>
+                <div class="side-bar-item-content">
+                    <img src="Assets/product-2.jpg" alt="iphone 9">
+                    <h3>iphone 14 Pro</h3>
+                </div>
+                <div class="side-bar-item-content">
+                    <img src="Assets/product-3.jpg" alt="iphone 12">
+                    <h3>iPhone 15 Pro</h3>
+                </div>
+            </div>
+        </aside> 
+
+        <main class="main-content">
+            <!-- Slider -->
+            <section class="main">
+                <h2 class="text-center">Sale up to <span>50%</span> Off!</h2>
+                <!-- Slider -->
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./Assets/discont-1.jpg" class="d-block w-100" alt="Discount 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/discont-3.jpg" class="d-block w-100" alt="Discount 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/discont-4.jpg" class="d-block w-100" alt="Discount 4">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section> 
+            
+            <!-- Products  -->
+            <section class="products">
+                <h2 class="text-product">Featured Products <span>New Arrivals</span></h2>
+                
+                <div class="containerProducts">
+                    <div class="products-grid">
+                        <!-- <div class="product">
+                            <img class="original-img" src="Assets/product-1.jpg" alt="Product 1">
+                            <img class="hover-img" src="Assets/product-2.jpg" alt="Product 1">
+                            <div class="product-info">
+                                <h3>Product 1</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, voluptate.</p>
+                                <div class="Adding">
+                                    <button class="remve-from-cart"><i class="fa-solid fa-minus"></i></button>
+                                    <span>0</span>
+                                    <button class="add-to-cart"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <div class="price">
+                                    <span class="new-price">$100 </span>
+                                    <span class="old-price">$200</span>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div> 
+                </div> 
+            </section> 
+
+        </main> 
+    </div> 
+
+    <footer>
+        <div class="footer-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a> 
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p>Copyright &copy; 2026 ShopSpot. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

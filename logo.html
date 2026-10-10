@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop Spot Logo</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+
+  /* تنسيق حاوية اللوجو */
+  .brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* تنسيق الأيقونة (دبوس الموقع) */
+  .brand-icon {
+    width: 36px;
+    height: 36px;
+    transition: transform 0.3s ease;
+  }
+
+  /* حركة بسيطة عند مرور الماوس */
+  .brand-logo:hover .brand-icon {
+    transform: translateY(-3px);
+  }
+
+  /* تنسيق النصوص */
+  .brand-text {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+
+  /* تلوين كلمة Shop */
+  .text-shop {
+    color: #1A1A1A; /* لون داكن احترافي */
+  }
+
+  /* تلوين كلمة Spot بنفس لون الأيقونة */
+  .text-spot {
+    color: #2563EB; /* لون أزرق احترافي يعبر عن التسوق */
+  }
+</style>
+</head>
+<body>
+
+  <!-- ابدأ نسخ اللوجو من هنا لداخل الـ Navbar الخاص بك -->
+  <a href="index.html" class="brand-logo">
+    
+    <!-- كود الأيقونة SVG -->
+    <svg class="brand-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="#2563EB"/>
+    </svg>
+
+    <!-- النص الخاص بالبراند -->
+    <div class="brand-text">
+      <span class="text-shop">Shop</span><span class="text-spot">Spot.</span>
+    </div>
+
+  </a>
+  <!-- نهاية كود اللوجو -->
+
+</body>
+</html>
