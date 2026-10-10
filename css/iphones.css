@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 150px;
+}
+
+/* flex: 1;  */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+main.iphone-page {
+    flex: 1;
+}
+
+.text-product {
+    margin: 1rem 0;
+}
+
+.products h2.text-product {
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+    /* color: var(--color-primary); */
+    /* color: black; */
+    text-align: center;
+}
+
+
